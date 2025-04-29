@@ -1,0 +1,17 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex dragon.vert
+Fragment dragon.frag
+Geometry dragon.geom
+
+Program IceDragon                                     \
+        uTime <0. 1. 10.>                             \
+        uSpectre <0.1 1. 5.>                          \
+        uIcyGlow <0.1 1. 5.>                          \
+        uShrink <0.1 1. 5.>
+
+Color 0.5 0.6 0.9
+Obj dragon138.obj
